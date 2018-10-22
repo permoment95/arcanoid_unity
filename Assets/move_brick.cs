@@ -26,7 +26,7 @@ public class move_brick : MonoBehaviour {
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            print("space key was pressed");
+            //print("space key was pressed");
             transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, transform.position.z);
         }
 
